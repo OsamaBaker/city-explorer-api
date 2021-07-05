@@ -24,6 +24,11 @@ server.get('/weather', (req, res) => {
     let lookForData = weatherData.find(element => {
         if( element.city_name === city ) {
             return element.city_name
+        } else {
+            return server.get('/*', (req, res) => {
+                res.status(404).send('NOT FOUND')
+            })
+
         }
     })
     res.status(200).send(lookForData);
@@ -33,9 +38,6 @@ server.get('/weather', (req, res) => {
     })
 })
 
-server.get('/*', (req, res) => {
-    res.status(404).send('NOT FOUND')
-})
 
 class Forecast {
     constructor(date, description){
