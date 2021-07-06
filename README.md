@@ -19,3 +19,13 @@ Node Express.
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+
+Name of feature: Finishing the Backend server
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 3:30 PM
+
+Finish time: 8:30 PM
+
+Actual time needed to complete: 5 hours
