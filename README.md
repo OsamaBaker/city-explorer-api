@@ -29,3 +29,15 @@ Start time: 3:30 PM
 Finish time: 8:30 PM
 
 Actual time needed to complete: 5 hours
+
+------------------------------------------------------
+
+Name of feature: Creating Modules
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 1:00 PM
+
+Finish time: 1:20 PM
+
+Actual time needed to complete: 20 minutes
